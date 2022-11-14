@@ -10,6 +10,8 @@ COPY ./requirements.txt .
 
 RUN apt-get update -y && \
     apt-get install -y netcat && \
+    apt-get install -y nodejs && \
+    apt-get install -y npm && \
     pip install --upgrade pip && \
     pip install -r requirements.txt
 

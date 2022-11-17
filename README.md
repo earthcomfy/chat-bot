@@ -9,4 +9,4 @@ Build a Chatbot Using Python, Django
 - Redis - Will be used as a message broker and result backend for Celery. In addition, it will be used as a channel layer for WebSocket communication.
 - TailwindCSS - To create the user interface.
 
-Related blog post: 
+Related blog post: https://dev.to/documatic/build-a-chatbot-using-python-django-46hb
